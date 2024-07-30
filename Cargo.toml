@@ -1,0 +1,17 @@
+[package]
+name = "ir_init"
+version = "0.0.1"
+edition = "2021"
+readme = "README.md"
+description = "Super initialization tool for personal use"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/IceRabbit1999/ir_init"
+homepage = "https://github.com/IceRabbit1999/ir_init"
+
+[dependencies]
+anyhow = "1.0.86"
+clap = { version = "4.5.11", features = ["derive"] }
+
+[[bin]]
+name = "iri"
+path = "src/main.rs"
